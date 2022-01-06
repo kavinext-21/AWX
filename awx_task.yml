@@ -1,0 +1,6 @@
+- name: To Print A Message
+  hosts: all
+  tasks:
+    - name: Message
+      debug:
+        msg: "Hello Team Automation"
